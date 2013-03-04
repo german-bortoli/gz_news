@@ -2,7 +2,7 @@
 
 /*
   Plugin Name: GZ News
-  Plugin URI: http://www.github.com/germanaz0
+  Plugin URI: https://github.com/Germanaz0/gz_news
   Description: This plugin allows admins to upload them news like a blog post.
   Version: 1.0
   Author: Germanaz0
