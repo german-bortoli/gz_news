@@ -104,8 +104,8 @@ class GzNewsForm extends Form {
             }
             echo '</select>';
         } else {
-            echo $locale['s_short_name'];
-            echo '<input type="hidden" name="locale" value="' . $locales[0]["pk_c_code"] . '" />';
+            echo $locales[0]['s_short_name'];
+            parent::generic_input_hidden('locale', $locales[0]['pk_c_code']);
         }
     }
 
