@@ -12,12 +12,12 @@
     RewriteEngine On
     RewriteBase /
 	
-	#Modified file for News
+	\#News 
 	RewriteRule ^news/read/([^/]*)/([^/]*)\.html$ /oc-content/plugins/gz_news/pages/item.php?i=$1&title=$2 [L]
 	RewriteRule ^news/$ /oc-content/plugins/gz_news/pages/index.php [L]
 	RewriteRule ^news$ /oc-content/plugins/gz_news/pages/index.php [L]
 
-	#Osclass
+	\#Normal OSCLASS 
     RewriteRule ^index\.php$ - [L]
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
