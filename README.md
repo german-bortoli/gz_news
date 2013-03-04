@@ -2,6 +2,10 @@
 
 > Allow osclass admins, to publish news in them site.
 
+## WARNING:
++ This module is in beta stage, because is needed to add better configurations in the module, and adapt the frontend to the normal osclass theme.
+
+
 ## How to install
 
 + Enable module.
